@@ -4,10 +4,10 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "astari's archives",
-  description: "astari nabila's portfolio",
+  title: "Portfolio | Astari Nabila",
+  description: "Astari Nabila's personal portfolio.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon2.ico",
   },
 };
 

@@ -28,25 +28,25 @@ function HeroDrawing() {
     <div className="min-h-screen flex flex-col">
       <div className="flex-grow flex flex-col justify-center items-center">
         <div className="flex flex-col items-center">
-          <div className="flex flex-col items-center gap-12">
+          <div className="flex flex-col items-center gap-8">
             <div className="flex-none">
               {visibleImages.includes("https://i.imgur.com/VfhUTFQ.png") && (
                 <img
                   src="https://i.imgur.com/VfhUTFQ.png"
                   alt="Title"
-                  className="w-80"
+                  className="w-72"
                 />
               )}
             </div>
 
-            <div className="flex gap-14">
+            <div className="flex gap-6 lg:gap-14">
               <div className="h-14 w-14 flex-none">
                 {visibleImages.includes("https://i.imgur.com/wdTOMLM.png") && (
                   <Link href="/about">
                     <img
                       src="https://i.imgur.com/wdTOMLM.png"
                       alt="About"
-                      className="w-14"
+                      className="w-14 hover:rotate-12"
                       loading="lazy"
                     />
                   </Link>
@@ -58,7 +58,7 @@ function HeroDrawing() {
                     <img
                       src="https://i.imgur.com/E8a5Kvl.png"
                       alt="Projects"
-                      className="w-14"
+                      className="w-14 hover:-rotate-12"
                       loading="lazy"
                     />
                   </Link>
@@ -73,19 +73,20 @@ function HeroDrawing() {
                     <img
                       src="https://i.imgur.com/0PTHF3L.png"
                       alt="LinkedIn"
-                      className="w-14"
+                      className="w-14 hover:rotate-12"
                       loading="lazy"
                     />
                   </Link>
                 )}
               </div>
+
               <div className="h-14 w-14 flex-none">
                 {visibleImages.includes("https://i.imgur.com/WxXmiC3.png") && (
                   <Link href="mailto:astnab@gmail.com?subject=Hello%2C%20Astari!">
                     <img
                       src="https://i.imgur.com/WxXmiC3.png"
                       alt="Email"
-                      className="w-14"
+                      className="w-14 hover:-rotate-12"
                       loading="lazy"
                     />
                   </Link>
