@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Portfolio | Astari Nabila",
-  description: "Astari Nabila's personal portfolio.",
+  description: "Astari Nabila | Personal Portfolio",
   icons: {
     icon: "/favicon2.ico",
   },
