@@ -1,10 +1,10 @@
-import { Inter } from "next/font/google";
+import { Inter, Raleway } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio | Astari Nabila",
+  title: "Astari Nabila | Portfolio",
   description: "Astari Nabila | Personal Portfolio",
   icons: {
     icon: "/favicon2.ico",

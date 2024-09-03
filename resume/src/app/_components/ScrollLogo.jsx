@@ -40,7 +40,7 @@ const logos = [
 const ScrollingLogos = () => {
   return (
     <div className="relative overflow-hidden py-10">
-      <div className="relative w-full max-w-md mx-auto text-zinc-500 tracking-tighter text-sm font-light text-center mb-4">
+      <div className="relative w-full max-w-md mx-auto text-zinc-500 tracking-tight text-sm font-light text-center mb-4">
         Continously learning these tech stacks
       </div>
       <div className="relative w-full max-w-sm lg:max-w-4xl mx-auto overflow-hidden">

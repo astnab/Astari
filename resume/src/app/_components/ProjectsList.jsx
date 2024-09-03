@@ -14,7 +14,7 @@ function ProjectsList() {
         <div className="relative flex items-center justify-center border-zinc-800 border-1  bg-gradient-to-r from-black via-red-800 to-zinc-900 rounded-3xl overflow-hidden group">
           <div className="relative p-10 transition-transform duration-500 ease-in-out group-hover:scale-105">
             <img
-              src="https://i.imgur.com/HW1YraN.png"
+              src="https://i.imgur.com/c4ZMXQZ.png"
               alt="Personal Portfolio"
               className="rounded-sm shadow-xl w-full h-full object-cover"
             />

@@ -8,6 +8,7 @@ import Footer2 from "./_components/Footer2";
 import Hero2 from "./_components/Hero2";
 import ScrollingLogos from "./_components/ScrollLogo";
 import Contacts from "./_components/Contacts";
+import ShootingStar from "./_components/ShootingStars";
 
 export default function Home() {
   return (

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className="flex flex-col tracking-tighter text-zinc-700 py-4 border-t-2 border-black">
+    <div className="flex flex-col tracking-tight text-zinc-700 py-4 border-t-2 border-black">
       <div className="container mx-auto">
         <div className="row align-items-center">
           <div className="col-lg-6 text-lg-start mb-2 mb-lg-0">
