@@ -20,10 +20,10 @@ function Contacts() {
 
           <div className="flex flex-col gap-4 lg:gap-6 max-w-xs lg:max-w-lg">
             <div className="text-3xl lg:text-6xl font-md">
-              Hello! I'm <span className="font-bold">Astari</span>,
+              Hello! I&apos;m <span className="font-bold">Astari</span>,
             </div>
             <div className="font-light text-zinc-400 leading-relaxed text-sm lg:text-lg text-justify">
-              I'm a web developer with a background in urban studies and
+              I&apos;m a web developer with a background in urban studies and
               Geographic Information System. I merge creativity, as I have a
               passion in arts and designs, with tech to build dynamic web apps
               and enjoy crafting innovative solutions through design and
