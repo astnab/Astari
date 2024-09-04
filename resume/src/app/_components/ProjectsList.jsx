@@ -26,13 +26,13 @@ function ProjectsList() {
           {/* Title and Subtitle */}
           <div className="absolute bottom-3 left-8 text-left z-20">
             <div className="flex items-center gap-2 text-white">
-              <div className="text-xl">Personal Portfolio</div>
+              <div className="text-lg md:text-xl">Personal Portfolio</div>
               <div className="bg-zinc-600 p-1.5 rounded-full opacity-40">
                 <FiExternalLink />
               </div>
             </div>
 
-            <p className="text-zinc-500 text-sm mt-1 truncate text-wrap w-80">
+            <p className="text-zinc-500  mt-1 truncate text-wrap text-xs md:text-sm w-60 lg:w-80">
               Portfolio website to highlight my projects and experiences.
             </p>
           </div>
@@ -54,13 +54,13 @@ function ProjectsList() {
           {/* Title and Subtitle */}
           <div className="absolute bottom-3 left-8 text-left z-20">
             <div className="flex items-center gap-2 text-white">
-              <div className="text-xl">Atcasa</div>
+              <div className="text-lg md:text-xl">Atcasa</div>
               <div className="bg-zinc-600 p-1.5 rounded-full opacity-40">
                 <FiExternalLink />
               </div>
             </div>
 
-            <p className="text-zinc-500 text-sm mt-1 truncate text-wrap w-80">
+            <p className="text-zinc-500 mt-1 truncate text-wrap text-xs md:text-sm w-60 lg:w-80">
               Website for renting and managing properties, built for both
               property hosts and guests.
             </p>
@@ -83,13 +83,13 @@ function ProjectsList() {
           {/* Title and Subtitle */}
           <div className="absolute bottom-3 left-8 text-left z-20">
             <div className="flex items-center gap-2 text-white">
-              <div className="text-xl">Tickzy</div>
+              <div className="text-lg md:text-xl">Tickzy</div>
               <div className="bg-zinc-600 p-1.5 rounded-full opacity-40">
                 <FiGithub />
               </div>
             </div>
 
-            <p className="text-zinc-500 text-sm mt-1 truncate text-wrap w-80">
+            <p className="text-zinc-500 mt-1 truncate text-wrap  text-xs md:text-sm w-60 lg:w-80">
               Website for managing events and handling ticket sales and
               bookings.
             </p>
@@ -112,13 +112,13 @@ function ProjectsList() {
           {/* Title and Subtitle */}
           <div className="absolute bottom-3 left-8 text-left z-20">
             <div className="flex items-center gap-2 text-white">
-              <div className="text-xl">WanderWave</div>
+              <div className="text-lg md:text-xl">WanderWave</div>
               <div className="bg-zinc-600 p-1.5 rounded-full opacity-40">
                 <FiExternalLink />
               </div>
             </div>
 
-            <p className="text-zinc-500 text-sm mt-1 truncate text-wrap w-80">
+            <p className="text-zinc-500 mt-1 truncate text-wrap  text-xs md:text-sm w-60 lg:w-80">
               Company profile website for a travel agency.
             </p>
           </div>

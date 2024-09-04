@@ -43,7 +43,7 @@ const ScrollingLogos = () => {
       <div className="relative w-full max-w-md mx-auto text-zinc-500 tracking-tight text-sm font-light text-center mb-4">
         Continously learning these tech stacks
       </div>
-      <div className="relative w-full max-w-sm lg:max-w-4xl mx-auto overflow-hidden">
+      <div className="relative w-full max-w-xs lg:max-w-4xl mx-auto overflow-hidden">
         <div className="flex animate-scroll whitespace-nowrap text-white">
           {logos.map((logo, index) => (
             <div

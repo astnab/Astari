@@ -7,7 +7,7 @@ function Contacts() {
     <>
       <div className="flex flex-col tracking-tight text-white px-4 py-10">
         <div className="flex flex-col justify-center items-center  md:justify-between max-w-screen-xl p-6 mx-auto md">
-          <div className="relative w-80 lg:max-w-lg flex items-center justify-center">
+          <div className="relative w-full lg:max-w-lg flex items-center justify-center">
             <img
               src="https://i.imgur.com/va6RopC.png"
               alt="Hero"
