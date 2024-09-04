@@ -11,19 +11,22 @@ function Contacts() {
             <img
               src="https://i.imgur.com/va6RopC.png"
               alt="Hero"
-              className="w-52 h-52 object-cover rounded-lg"
+              className="w-40 h-40 object-cover rounded-lg"
             />
             <div className="absolute bottom-0 left-0 right-0 h-10 bg-gradient-to-t from-black to-transparent"></div>
           </div>
 
           <div className="flex flex-col gap-3 md:gap-6 max-w-lg px-4 pt-4 text-center ">
-            <div className="text-3xl lg:text-4xl font-md ">
-              How can I support your digital projects?
+            <div className="text-2xl lg:text-4xl font-md ">
+              How can I support your
+              <div className="font-semibold">digital projects?</div>
             </div>
 
-            <div className="text-zinc-400">
-              I&apos;m eager to help you with custom, feature-rich multi-page
-              websites!
+            <div className="text-zinc-400 text-sm text-justify">
+              I&apos;m eager to help you build custom, multi-page websites with
+              all the features you need. Whether it&apos;s a modern design or
+              advanced functionality, I&apos;m ready to turn your vision into
+              reality!
             </div>
 
             <div className="w-full flex">

@@ -25,7 +25,7 @@ function Hero2() {
               <img
                 src="https://i.imgur.com/5wW1IsP.png"
                 alt="Hero"
-                className="w-40 lg:w-96 object-cover relative z-40 lg:pt-10 lg:px-6"
+                className="w-48 lg:w-96 object-cover relative z-40 lg:pt-10 lg:px-6"
               />
 
               <div className="absolute bottom-0 left-0 right-0 h-32 z-50 bg-gradient-to-t from-black to-transparent"></div>
@@ -34,10 +34,10 @@ function Hero2() {
         </div>
 
         <div className="flex flex-col gap-4 lg:gap-6 max-w-xs lg:max-w-lg z-60 relative ">
-          <div className="text-4xl lg:text-6xl font-md">
+          <div className="text-3xl lg:text-6xl font-md">
             Hello! I&apos;m <span className="font-semibold">Astari</span>,
           </div>
-          <div className="font-light text-zinc-400 leading-relaxed text-md lg:text-lg text-justify">
+          <div className="font-light text-zinc-400 leading-relaxed text-sm lg:text-lg text-justify">
             I&apos;m a web developer with a background in urban studies and
             Geographic Information System. I merge creativity, as I have a
             passion in arts and designs, with tech to build dynamic web apps and
