@@ -28,9 +28,8 @@ const logos = [
   { component: FaReact, name: "React" },
   { component: SiNextdotjs, name: "Next.js" },
   { component: SiTailwindcss, name: "Tailwind CSS" },
-  { component: FaBootstrap, name: "Bootstrap" }, // Placeholder for Bootstrap
-  { component: FaGit, name: "Git" },
-  { component: FaGithub, name: "GitHub" }, // Placeholder for GitHub
+  { component: FaBootstrap, name: "Bootstrap" },
+  { component: FaGithub, name: "GitHub" },
   { component: FaNodeJs, name: "Node.js" },
   { component: SiExpress, name: "Express" },
   { component: SiMysql, name: "MySQL" },

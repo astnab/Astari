@@ -8,7 +8,7 @@ import StarBackground from "./StarBackground";
 
 function Hero2() {
   return (
-    <div className="flex flex-col items-center justify-center tracking-tight text-white min-h-screen px-6 relative">
+    <div className="flex flex-col items-center justify-center  text-white min-h-screen px-6 relative">
       <div className="inihero flex flex-col md:flex-row gap-8 lg:gap-12 items-center lg:items-end lg:justify-between max-w-screen-xl mx-auto relative">
         <div className="relative w-full pt-10 md:pt-0 lg:w-80 lg:max-w-lg rounded-xl overflow-visible">
           <div className="flex items-center justify-center relative w-full h-full">
