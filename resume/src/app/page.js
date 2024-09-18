@@ -23,8 +23,6 @@ export default function Home() {
         <div className="mt-auto">
           <Footer2 />
         </div>
-
-        {/* <HeroDrawing /> */}
       </div>
     </>
   );

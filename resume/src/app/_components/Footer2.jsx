@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaDribbble } from "react-icons/fa";
 import { IoMailOpen } from "react-icons/io5";
 
 function Footer2() {
@@ -46,6 +46,17 @@ function Footer2() {
           >
             <div className="lex gap-2 text-sm items-center border-1 border-zinc-600 p-2 font-light rounded-xl transition-all duration-300 ease-in-out hover:border-zinc-white hover:shadow-[0_0_0_1px_#ffffff]">
               <IoMailOpen />
+            </div>
+          </Link>
+
+          <Link
+            href="https://dribbble.com/astnab"
+            className="no-underline text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="lex gap-2 text-sm items-center border-1 border-zinc-600 p-2 font-light rounded-xl transition-all duration-300 ease-in-out hover:border-zinc-white hover:shadow-[0_0_0_1px_#ffffff]">
+              <FaDribbble />
             </div>
           </Link>
         </div>
